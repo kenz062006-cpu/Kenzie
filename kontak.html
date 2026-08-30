@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak & Lokasi — RasaBumi Plant-Based Culinary</title>
+  <meta name="description" content="Hubungi tim RasaBumi untuk pemesanan makanan, pertanyaan menu vegan, catering, atau kerja sama.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER NAVIGASI -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        RasaBumi <span>.</span>
+        <span class="logo-badge">100% Vegan</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="index.html">Beranda</a>
+        <a href="menu.html">Poster Menu</a>
+        <a href="aboutus.html">Tentang Kami</a>
+        <a href="kontak.html" class="active">Kontak</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://wa.me/6287817292963?text=Halo%20RasaBumi,%20saya%20ingin%20memesan%20makanan" target="_blank" class="btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          Pesan WhatsApp
+        </a>
+        <button class="hamburger" id="hamburger-btn" aria-label="Toggle Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-nav" id="mobile-nav">
+      <a href="index.html">Beranda</a>
+      <a href="menu.html">Poster Menu</a>
+      <a href="aboutus.html">Tentang Kami</a>
+      <a href="kontak.html" class="active">Kontak</a>
+      <a href="https://wa.me/6287817292963?text=Halo%20RasaBumi,%20saya%20ingin%20memesan%20makanan" target="_blank" class="btn-primary" style="text-align: center; margin-top: 10px;">Pesan WhatsApp</a>
+    </div>
+  </header>
+
+  <!-- BANNER HEADER -->
+  <section class="page-banner">
+    <h1>Hubungi Kami</h1>
+    <p>Punya pertanyaan seputar menu, pemesanan katering, atau ingin menyapa? Kami siap melayani Anda!</p>
+  </section>
+
+  <!-- KONTEN UTAMA -->
+  <main class="container">
+    
+    <div class="contact-layout">
+      <!-- INFO KONTAK -->
+      <div class="contact-info-card">
+        <h2>Info & Layanan Kontak</h2>
+        <p style="color: var(--text-muted); margin-bottom: 30px;">Kunjungi lokasi restoran kami atau hubungi kami langsung melalui saluran kontak di bawah ini.</p>
+
+        <div class="contact-item">
+          <div class="contact-item-icon">⏰</div>
+          <div class="contact-item-text">
+            <h4>Jam Operasional</h4>
+            <p>Senin – Minggu: 08.00 - 21.00 WITA</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-item-icon">📱</div>
+          <div class="contact-item-text">
+            <h4>WhatsApp / Telepon</h4>
+            <p>+62 878-1729-2963</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-item-icon">📍</div>
+          <div class="contact-item-text">
+            <h4>Lokasi Restoran</h4>
+            <p>Bali, Indonesia</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-item-icon">✉️</div>
+          <div class="contact-item-text">
+            <h4>Email Pertanyaan</h4>
+            <p>info@rasabumi.com</p>
+          </div>
+        </div>
+
+        <div style="margin-top: 32px; padding-top: 24px; border-top: 1px solid var(--border-light);">
+          <a href="https://wa.me/6287817292963?text=Halo%20RasaBumi,%20saya%20ingin%20bertanya" target="_blank" class="modal-action-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            Chat WhatsApp Langsung
+          </a>
+        </div>
+      </div>
+
+      <!-- FORMULIR PESAN -->
+      <div class="contact-form-card">
+        <h2>Kirim Pesan</h2>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Nama Lengkap</label>
+            <input type="text" id="name" placeholder="Masukkan nama Anda" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Alamat Email / Nomor HP</label>
+            <input type="text" id="email" placeholder="nama@email.com / 0812..." required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Pesan / Pertanyaan Anda</label>
+            <textarea id="message" placeholder="Tuliskan pesan, pertanyaan menu, atau katering di sini..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary" style="width: 100%; border-radius: var(--radius-md); padding: 14px;">
+            Kirim Pesan Sekarang
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- FAQ SECTION -->
+    <section class="faq-section">
+      <div class="section-header">
+        <span class="section-tag">FAQ</span>
+        <h2 class="section-title">Pertanyaan Sering Diajukan</h2>
+        <p class="section-desc">Jawaban atas hal-hal yang sering ditanyakan oleh pelanggan kami.</p>
+      </div>
+
+      <div style="max-width: 800px; margin: 0 auto;">
+        <div class="faq-item">
+          <div class="faq-header">
+            Apakah seluruh menu di RasaBumi 100% Vegan?
+            <span class="faq-icon">▼</span>
+          </div>
+          <div class="faq-body">
+            Ya, 100% menu kami diproduksi tanpa minyak hewani, telur, susu, maupun produk turunan hewani lainnya. Seluruh hidangan kami ramah untuk vegan dan vegetarian.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-header">
+            Bagaimana cara pemesanan hidangan RasaBumi?
+            <span class="faq-icon">▼</span>
+          </div>
+          <div class="faq-body">
+            Anda dapat langsung memilih hidangan di halaman Beranda, mengklik "Detail & Pesan", dan Anda akan diarahkan langsung ke WhatsApp customer service kami untuk menyelesaikan pemesanan.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-header">
+            Apakah RasaBumi menerima pesanan katering atau acara?
+            <span class="faq-icon">▼</span>
+          </div>
+          <div class="faq-body">
+            Tentu! Kami menerima pesanan katering untuk berbagai acara perayaan, ulang tahun, gathering, dan rapat kantor. Silakan hubungi kami via WhatsApp untuk diskusi menu custom.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-header">
+            Apakah ada layanan pengiriman (delivery)?
+            <span class="faq-icon">▼</span>
+          </div>
+          <div class="faq-body">
+            Ya, kami melayani pengiriman di area sekitar melalui layanan ojek online maupun armada pengiriman internal RasaBumi.
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- TOAST NOTIFICATION -->
+  <div class="toast" id="toast-msg">
+    <span>✅ Terima kasih! Pesan Anda telah terkirim. Tim RasaBumi akan segera menghubungi Anda.</span>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>RasaBumi .</h3>
+          <p>Pilihan kuliner 100% plant-based dan vegan terbaik dengan cita rasa otentik khas Nusantara yang menyehatkan tubuh dan melestarikan bumi.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigasi Cepat</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="menu.html">Poster Menu 9:16</a></li>
+            <li><a href="aboutus.html">Tentang Kami</a></li>
+            <li><a href="kontak.html">Kontak & Lokasi</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Jam Operasional</h4>
+          <ul class="footer-links">
+            <li>Senin – Minggu</li>
+            <li>08.00 - 21.00 WITA</li>
+            <li>Siap Antar Delivery</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Kontak Pemesanan</h4>
+          <ul class="footer-links">
+            <li>WhatsApp: +62 878-1729-2963</li>
+            <li>Email: info@rasabumi.com</li>
+            <li>Lokasi: Bali, Indonesia</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 RasaBumi — Plant-Based Culinary. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Mobile Nav Toggle
+      const hamburgerBtn = document.getElementById('hamburger-btn');
+      const mobileNav = document.getElementById('mobile-nav');
+
+      if (hamburgerBtn && mobileNav) {
+        hamburgerBtn.addEventListener('click', () => {
+          mobileNav.classList.toggle('active');
+        });
+      }
+
+      // Contact Form Toast Simulation
+      const contactForm = document.getElementById('contact-form');
+      const toast = document.getElementById('toast-msg');
+
+      if (contactForm) {
+        contactForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          toast.classList.add('show');
+          contactForm.reset();
+          setTimeout(() => {
+            toast.classList.remove('show');
+          }, 4000);
+        });
+      }
+
+      // FAQ Accordion
+      const faqHeaders = document.querySelectorAll('.faq-header');
+      faqHeaders.forEach(header => {
+        header.addEventListener('click', () => {
+          const item = header.parentElement;
+          item.classList.toggle('active');
+        });
+      });
+    });
+  </script>
+</body>
+</html>
